@@ -1,13 +1,5 @@
-doctype html
-html
-	head
-		include ./templates/head.jade
-	body
-		header
-			include ./blocks/header/header.jade
+extends ./templates/layout.jade
 
-
-		div.footer_push
-		footer
-			include ./templates/footer.jade
-		include ./templates/scripts.jade
+block content
+	p
+		|Hello world
